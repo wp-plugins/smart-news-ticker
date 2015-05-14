@@ -1,5 +1,5 @@
 === Smart News Ticker ===
-Tags: smart news ticker, news ticker, ticker, smart ticker, content carousel, simple carosuel, multiple shortcode carosuel, responsive carosuel,
+Tags: smart news ticker, news ticker, ticker, smart ticker,  responsive news ticker, simple news ticker
 Requires at least: 3.0.1
 Tested up to: 4.2.1
 Stable tag: 2.1
@@ -24,7 +24,9 @@ This plugin enable by Smart News Ticker for wordpress, In This plugin you will g
 <pre>[tp_smart_ticker id="3"  ticker_bg="#f5f5f5" ]</pre>
 
 <h3>Demo:4</h3>
-<pre>[tp_smart_ticker id="4" category="Services" ticker_bg="#3498db" color="#fff" ]</pre>
+<pre>[tp_smart_ticker id="4" category="your_category" ticker_bg="#3498db" color="#fff" ]</pre>
+
+<strong>For More Details visit our website: <a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">Click Here</a></strong>
 
 <strong>Do you want More options, features and style? then wait for premium version soon we will be release premium version there you will get lot's of variation of this plugin. Thanks </strong>
 
