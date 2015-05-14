@@ -1,0 +1,11 @@
+div#tp_ticker {margin: 5px 0px; overflow: hidden; min-height:30px;}
+div#tp_ticker strong{color: #fff; display: inline-block; float:left; font-weight: bold; margin-right: 10px; padding: 3px 10px;font-size: 14px; text-shadow: 1px 1px 1px #666;}
+div#tp_ticker ul{margin:0px; padding:0px;}
+div#tp_ticker ul li { list-style: outside none none; padding: 3px 0px; text-decoration: none;}
+div#tp_ticker ul li a{color:#000; text-decoration: none;}
+div#tp_ticker ul li a:hover{opacity:0.8; text-decoration: underline;}
+
+span#typing_effect {color: #fff; display: inline-block; float:left; font-weight: bold; padding: 3px 10px;font-size: 14px; text-shadow: 1px 1px 1px #666;}
+
+
+
