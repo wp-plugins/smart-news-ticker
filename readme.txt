@@ -11,22 +11,24 @@ Smart News Ticker Plugin Super Lightweight, easy customization.
 == Description ==
 
 This plugin enable by Smart News Ticker for wordpress, In This plugin you will get these facilities easy installation, multiple sortcodes, color variation and many more.
+Use shortcode anywhere in your theme just  copy your shortcode and replace into this "YOUR_SHORTCODE" area to your shortcode `<?php echo do_shortcode('YOUR_SHORTCODE'); ?>` 
 
-<h3>Plugin Demo url:</h3> <a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">http://touchpointdev.com/smart-news-ticker/</a>
+<ul>
+	<li><h4><a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">Live Demo:</a></h4></li>
+	<li><h4><a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">For More Details:</a></h4></li>
+</ul>
 
-<h3>Demo:1</h3>
+<h3>Example:1</h3>
 <pre>[tp_smart_ticker]</pre>
 
-<h3>Demo:1</h3>
+<h3>Example:2</h3>
 <pre>[tp_smart_ticker id="2" text="Write Your Text" effect="fade"  textbg="#1abc9c" ]</pre>
 
-<h3>Demo:3</h3>
+<h3>Example:3</h3>
 <pre>[tp_smart_ticker id="3"  ticker_bg="#f5f5f5" ]</pre>
 
-<h3>Demo:4</h3>
+<h3>Example:4</h3>
 <pre>[tp_smart_ticker id="4" category="your_category" ticker_bg="#3498db" color="#fff" ]</pre>
-
-<strong>For More Details visit our website: <a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">Click Here</a></strong>
 
 <strong>Do you want More options, features and style? then wait for premium version soon we will be release premium version there you will get lot's of variation of this plugin. Thanks </strong>
 
@@ -64,6 +66,7 @@ Soon premium version will be release there you can get lot's of more options and
 
 == Screenshots ==
 1. Demo Plugin Screenshot.
+2. Shorcode Generate button
 
 == Changelog ==
 
