@@ -30,7 +30,7 @@ This plugin enable by Smart News Ticker for wordpress, In This plugin you will g
 
 <strong>Do you want More options, features and style? then wait for premium version soon we will be release premium version there you will get lot's of variation of this plugin. Thanks </strong>
 
-<h3>Note: Here we used id="1, 2, 3" just demo you can any word name or anything.</h3>
+<h3>Note: Here we used id="1, 2, 3" just demo you can use any word name or anything as your like.</h3>
 
 
 == Installation ==
