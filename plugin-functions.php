@@ -25,22 +25,39 @@ wp_enqueue_style('tp-news-ticker-plugin-js', TP_SMOOTH_TICKER.'css/ticker.css');
 wp_enqueue_style('tp-news-scroll-ticker-plugin-js', TP_SMOOTH_TICKER.'css/li-scroller.css');
 
 
-/* Add Slider Shortcode Button on Post Visual Editor */
-function tp_ticker_button_function() {
-	add_filter ("mce_external_plugins", "tp_tickerl_button_js");
-	add_filter ("mce_buttons", "tp_ticker_button");
-}
 
-function tp_tickerl_button_js($plugin_array) {
-	$plugin_array['tptickers'] = plugins_url('js/ticker-custom-button.js', __FILE__);
+// Hooks your functions into the correct filters
+function tp_ticker_mce_button() {
+	// check user permissions
+	if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
+		return;
+	}
+	// check if WYSIWYG is enabled
+	if ( 'true' == get_user_option( 'rich_editing' ) ) {
+		add_filter( 'mce_external_plugins', 'tp_add_tinymce_plugin' );
+		add_filter( 'mce_buttons', 'tp_ticker_register_mce_button' );
+	}
+}
+add_action('admin_head', 'tp_ticker_mce_button');
+
+// Declare script for new button
+function tp_add_tinymce_plugin( $plugin_array ) {
+	$plugin_array['tp_ticker_button'] = plugins_url('js/ticker-custom-button.js', __FILE__);
 	return $plugin_array;
 }
 
-function tp_ticker_button($buttons) {
-	array_push ($buttons, 'tpticker');
+// Register new button in the editor
+function tp_ticker_register_mce_button( $buttons ) {
+	array_push( $buttons, 'tp_ticker_button' );
 	return $buttons;
 }
-add_action ('init', 'tp_ticker_button_function'); 
+
+//Tinymc css load functions
+function tp_ticker_mce_css() {
+	wp_enqueue_style('ticker_shortcode_mc', plugins_url('/css/tp-ticker-mc.css', __FILE__) );
+}
+add_action( 'admin_enqueue_scripts', 'tp_ticker_mce_css' );
+
 
 
 /* Add Plugin Loop Code */
