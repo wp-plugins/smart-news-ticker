@@ -14,8 +14,8 @@ This plugin enable by Smart News Ticker for wordpress, In This plugin you will g
 Use shortcode anywhere in your theme just  copy your shortcode and replace into this "YOUR_SHORTCODE" area to your shortcode `<?php echo do_shortcode('YOUR_SHORTCODE'); ?>` 
 
 <ul>
-	<li><h4><a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">Live Demo:</a></h4></li>
-	<li><h4><a href="http://touchpointdev.com/smart-news-ticker/" target="_blank">For More Details:</a></h4></li>
+	<li><h4><a href="http://wppluginarea.com/smart-news-ticker/" target="_blank">Live Demo:</a></h4></li>
+	<li><h4><a href="http://wppluginarea.com/smart-news-ticker/" target="_blank">For More Details:</a></h4></li>
 </ul>
 
 <h3>Example:1</h3>
