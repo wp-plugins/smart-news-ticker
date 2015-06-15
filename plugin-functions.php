@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Smart News Ticker
-Plugin URI:  http://touchpointdev.com/smart-news-ticker/
+Plugin URI:  http://wppluginarea.com/smart-news-ticker/
 Description: This plugin enable by Smart News Ticker for wordpress, In This plugin you will get these facilities easy installation, multiple sortcodes, color variation and many more.
 Author: Wp Plugin Area
 Author URI: http://wppluginarea.com
