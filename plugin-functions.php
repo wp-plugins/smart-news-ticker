@@ -3,8 +3,8 @@
 Plugin Name: Smart News Ticker
 Plugin URI:  http://touchpointdev.com/smart-news-ticker/
 Description: This plugin enable by Smart News Ticker for wordpress, In This plugin you will get these facilities easy installation, multiple sortcodes, color variation and many more.
-Author: Touch Point Dev
-Author URI: http://touchpointdev.com
+Author: Wp Plugin Area
+Author URI: http://wppluginarea.com
 Version: 2.1
 */
 
