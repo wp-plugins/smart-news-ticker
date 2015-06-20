@@ -63,10 +63,10 @@ add_action( 'admin_enqueue_scripts', 'tp_ticker_mce_css' );
 /* Add Plugin Loop Code */
 function smooth_ticker_list_shortcode($atts){
 	extract( shortcode_atts( array(
-		'text' => 'Latest News',
+		'title' => 'Latest News',
 		'count' => '-1',
 		'effect' => 'slide',
-		'textbg' => '#333',
+		'title_bg' => '#333',
 		'color' => '#000',
 		'ticker_bg' => '',
 		'id' => 'ticker',
@@ -93,7 +93,7 @@ function smooth_ticker_list_shortcode($atts){
 			});
 		}); 	
 	</script>
-	<div id="tp_ticker" style="background-color:'.$ticker_bg.';"><strong style="background-color:'.$textbg.'">'.$text.'</strong><ul id="smoothticker'.$id.'">'; 
+	<div id="tp_ticker" style="background-color:'.$ticker_bg.';"><strong style="background-color:'.$title_bg.'">'.$title.'</strong><ul id="smoothticker'.$id.'">'; 
 		while($q->have_posts()) : $q->the_post();
 			$idd = get_the_ID();
 			$list .= '
