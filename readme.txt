@@ -18,6 +18,8 @@ Use shortcode anywhere in your theme just  copy your shortcode and replace into 
 	<li><h4><a href="http://wppluginarea.com/smart-news-ticker/" target="_blank">For More Details:</a></h4></li>
 </ul>
 
+https://www.youtube.com/watch?v=4UwPwlDPwSA
+
 <h3>Example:1</h3>
 <pre>[tp_smart_ticker]</pre>
 
