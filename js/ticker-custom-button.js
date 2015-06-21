@@ -3,7 +3,7 @@
 (function() {
 	tinymce.PluginManager.add('tp_ticker_button', function( editor, url ) {
 		editor.addButton( 'tp_ticker_button', {
-			icon: 'chukku',
+			icon: 'sullu',
 			type: 'menubutton',
 			title : 'News Ticker',
 					menu: [
@@ -25,7 +25,7 @@
 										{
 											type: 'textbox',
 											name: 'tickerTitle',
-											label: 'Ticker Text',
+											label: 'Ticker Title',
 											value: 'Latest News'
 											
 										},
@@ -72,7 +72,7 @@
 										}										
 									],
 									onsubmit: function( e ) {
-										editor.insertContent( '[tp_smart_ticker id="' + e.data.tickerID + '" text="' + e.data.tickerTitle + '" textbg="' + e.data.TickertitleBg + '" effect="' + e.data.Tickereffect + '" color="' + e.data.TickerTextColor + '" ticker_bg="' + e.data.tickerBgColor + '" category="' + e.data.tickerCategory + '" fontsize="' + e.data.TickerfontSize + '"]');
+										editor.insertContent( '[tp_smart_ticker id="' + e.data.tickerID + '" title="' + e.data.tickerTitle + '" title_bg="' + e.data.TickertitleBg + '" effect="' + e.data.Tickereffect + '" color="' + e.data.TickerTextColor + '" ticker_bg="' + e.data.tickerBgColor + '" category="' + e.data.tickerCategory + '" fontsize="' + e.data.TickerfontSize + '"]');
 									}
 								});
 							}
